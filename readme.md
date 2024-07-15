@@ -2,6 +2,20 @@
 
 This project is a web application developed in Python that utilizes facial recognition technology to predict the age, gender, and facial expression of a person in real-time. It leverages pre-trained machine learning models and OpenCV technology for face detection in images. The application allows users to access it through a web interface and view predictions directly.
 
+## Running the Application
+
+To run the application, ensure you have Python installed along with all required dependencies. You can install the dependencies by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Once the dependencies are installed, you can start the application by running the following command:
+
+```bash
+python app.py
+```
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [How it Works](#how-it-works)
@@ -80,20 +94,6 @@ The application operates as follows:
         - gender_net.caffemodel
 - app.py
 - requirements.txt
-
-## Running the Application
-
-To run the application, ensure you have Python installed along with all required dependencies. You can install the dependencies by running the following command:
-
-```bash
-pip install -r requirements.txt
-```
-
-Once the dependencies are installed, you can start the application by running the following command:
-
-```bash
-python app.py
-```
 
 This will start the application and launch it in your default web browser. You can then interact with the application to perform age, gender, and facial expression recognition.
 For more details on how to use the application, refer to the user guide provided within the application.# FEGA-Detection
