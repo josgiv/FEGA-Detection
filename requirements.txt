@@ -4,3 +4,4 @@ opencv-python
 deepface
 flask
 streamlit_modal
+streamlit
